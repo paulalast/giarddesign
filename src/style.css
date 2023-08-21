@@ -92,3 +92,26 @@
 		display: flex;
 	}
 }
+.card {
+	position: relative;
+	overflow: hidden;
+}
+
+.card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(135deg, transparent, #f0f0ec76, transparent);
+	transform: skewX(-45deg) translateX(-100%); 
+	transition: transform 0.8s;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.card:hover::before {
+	transform: skewX(-45deg) translateX(200%); 
+	opacity: 1;
+}

@@ -24,7 +24,7 @@ window.addEventListener("resize", () => {
 $(document).ready(function () {
 	$(".slider-container").slick({
 		speed: 500,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 3000,
 		arrows: false,
 		dots: false,
