@@ -29,13 +29,13 @@
     as="style">
   <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css"
     as="style">
-  <script type="module" crossorigin src="/giarddesign/assets/index-7c0b23d5.js"></script>
-  <link rel="stylesheet" href="/giarddesign/assets/index-86ec2287.css">
+  <script type="module" crossorigin src="/giarddesign/assets/index-ef04360a.js"></script>
+  <link rel="stylesheet" href="/giarddesign/assets/index-99d62c86.css">
 </head>
 
 <body class="flex flex-col w-full justify-center items-center font-fontB ">
-  <nav class="flex w-full bg-white fixed top-0 z-[50] shadow-lg z-50 ">
-    <div class="flex mx-auto py-4 lg:w-10/12 max-lg:w-11/12 ">
+  <nav class="flex w-full bg-white fixed top-0 shadow-lg z-50 py-1">
+    <div class="flex mx-auto py-4 px-7 lg:w-11/12 max-lg:w-11/12 ">
       <div class="flex w-full justify-between items-center  ">
         <div>
           <a href="#">
@@ -43,9 +43,9 @@
               height="20px" alt="Powrót do strony głównej">
           </a>
         </div>
-        <div class="flex items-center space-x-4 bg-white z-10 text-sm ">
+        <div class="flex items-center space-x-2 bg-white z-10 text-sm ">
           <ul id="menu"
-            class="lg:flex  gap-9 max-lg:absolute max-lg:top-20 max-lg:bg-white max-lg:right-0 max-lg:flex max-lg:px-1 max-lg:py-1 max-lg:flex-col max-lg:w-full max-lg:h-fit max-lg:shadow-lg max-lg:gap-4 max-lg:px-8 z-[0]">
+            class="lg:flex  gap-6 max-lg:absolute max-lg:top-20 max-lg:bg-white max-lg:right-0 max-lg:flex max-lg:px-1 max-lg:py-1 max-lg:flex-col max-lg:w-full max-lg:h-fit max-lg:shadow-lg max-lg:gap-4 max-lg:px-8 z-[0]">
             <li id="show-more"
               class="flex items-center group hover:text-grey hover:bg-green duration-300 rounded-full py-1 px-3 max-lg:py-3">
               <a href="#" class="">Oferta</a>
@@ -91,10 +91,12 @@
                 class="transition-all duration-300 w-0 scale-x-0 border-none border-b-2 opacity-0 overflow-hidden focus:outline-none focus:border flex max-lg:w-full cursor-pointer"
                 id="searchInput">
               <img src="/giarddesign/assets/search-8f0a3a80.svg" width="24px" height="24px"
-                alt="ikona lupki wyszukiwania" id="searchIcon">
+                alt="ikona lupki wyszukiwania" id="searchIcon"
+                class="hover:rotate-90 cursor-pointer duration-300">
             </li>
           </ul>
-          <button id="menu-toggle" class="lg:hidden flex w-12">
+          <button id="menu-toggle"
+            class="lg:hidden flex w-12 hover:scale-105 duration-300">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAHYAAAB2AH6XKZyAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAIJJREFUeJzt2jEKwzAQBMDFr0vI/z9g5x9xEXBlghwj+cAzoFLFITW7XAIAAAAtXkneST7FzpLk2XHuzXLBcK1nPjrMdPQC329W8RfMSR4d5wYAAG6iau4f1hNUTHxnkuIufcAPVXP/P6+vJwAAAE6r2hPYD4j9gDGq9gRyPwAAAI1W3KSAChYVj5MAAAAASUVORK5CYII=" alt="menu" width="48px"
               height="48px" class="w-full h-full object-cover">
           </button>
@@ -108,15 +110,16 @@
       <!-- slide 1 -->
       <div class="slide flex-row gap-16 w-full justify-center max-lg:flex-col ">
         <div
-          class="flex flex-col justify-center items-center gap-[72px] py-20 max-lg:py-14 max-lg:gap-8 max-lg:w-11/12">
+          class="flex flex-col justify-center items-center gap-[72px] mt-6 py-20 max-lg:py-14 max-lg:gap-8 max-lg:w-11/12">
           <div
             class="flex flex-col w-9/12 gap-[44px] max-xl:w-9/12 max-lg:gap-4">
             <h1
-              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight">
+              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight text-shadow-custom">
               Nowoczesna
               aranżacja
               Twojego ogrodu </h1>
-            <p class="w-8/12 max-xl:w-full">Marka GiardDesign to wieloletnie
+            <p class="w-10/12 max-xl:w-full leading-[150%]">Marka GiardDesign to
+              wieloletnie
               doświadczenie i
               wysoka estetyka
               realizacji. Oferujemy kompleksowy zakres usług z indywidualnym
@@ -124,16 +127,16 @@
           </div>
           <div class="flex w-9/12  gap-[36px] max-xl:flex-wrap max-lg:gap-4">
             <button
-              class="rounded-[200px] bg-green py-3 px-6 text-grey border border-green max-xl:w-full"><a
+              class="rounded-[200px] bg-green py-3 px-6 text-grey border border-green max-xl:w-full hover:bg-beige hover:text-green hover:scale-105 duration-300"><a
                 href="#kontakt">Skontaktuj się z nami</a></button>
             <button
-              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-black border border-black max-xl:w-full"><a
+              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-green border border-green max-xl:w-full hover:text-grey hover:scale-105 hover:bg-green duration-300 hover:border-green group"><a
                 href="#realizacje">Zobacz nasze realizacje</a> <img
-                src="/giarddesign/assets/arrow-down-black-7349bb61.svg" alt="zjazd w dół"
-                class="ml-2"></button>
+                src="/giarddesign/assets/arrow-down-49bb7b0e.svg" alt="zjazd w dół"
+                class="ml-2 group-hover:invert group-hover:rotate-45 "></button>
           </div>
         </div>
-        <div class=" bg-green overflow-hidden h-[737px] w-4/5 max-md:w-full">
+        <div class=" bg-green overflow-hidden h-[737px] w-5/6 max-md:w-full">
           <img src="/giarddesign/assets/header-img-97c49c8f.webp" alt="zielony labirynt"
             width="600px" height="600px" class="min-w-full h-full object-cover">
         </div>
@@ -146,7 +149,7 @@
           <div
             class="flex flex-col w-9/12 gap-[44px] max-xl:w-9/12 max-lg:gap-4">
             <h1
-              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight">
+              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight text-shadow-custom">
               Artystyczne spojrzenie na naturę
             </h1>
             <p class="w-8/12 max-xl:w-full"> Tworzymy ogrody, które są
@@ -156,13 +159,13 @@
           </div>
           <div class="flex w-9/12  gap-[36px] max-xl:flex-wrap max-lg:gap-4">
             <button
-              class="rounded-[200px] bg-green py-3 px-6 text-grey border border-green max-xl:w-full"><a
+              class="rounded-[200px] bg-green py-3 px-6 text-grey border border-green max-xl:w-full hover:bg-beige hover:text-green hover:scale-105 duration-300"><a
                 href="#kontakt">Skontaktuj się z nami</a></button>
             <button
-              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-black border border-black max-xl:w-full"><a
+              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-green border border-green max-xl:w-full hover:text-grey hover:scale-105 hover:bg-green duration-300 hover:border-green group"><a
                 href="#realizacje">Zobacz nasze realizacje</a> <img
-                src="/giarddesign/assets/arrow-down-black-7349bb61.svg" alt="zjazd w dół"
-                class="ml-2"></button>
+                src="/giarddesign/assets/arrow-down-49bb7b0e.svg" alt="zjazd w dół"
+                class="ml-2 group-hover:invert group-hover:rotate-45 "></button>
           </div>
         </div>
         <div class=" bg-green overflow-hidden h-[737px] w-4/5 max-md:w-full">
@@ -179,7 +182,7 @@
           <div
             class="flex flex-col w-9/12 gap-[44px] max-xl:w-9/12 max-lg:gap-4">
             <h1
-              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight">
+              class="text-[60px] leading-[70px] font-fontA max-lg:text-[40px] max-lg:leading-tight text-shadow-custom">
               Zielona przestrzeń Twojego spokoju
             </h1>
             <p class="w-8/12 max-xl:w-full"> Współczesne ogrody łączą harmonię z
@@ -189,13 +192,13 @@
           </div>
           <div class="flex w-9/12  gap-[36px] max-xl:flex-wrap max-lg:gap-4">
             <button
-              class="rounded-[200px] bg-white py-3 px-6 text-black border border-white max-xl:w-full"><a
+              class="rounded-[200px] bg-green py-3 px-6 text-grey border border-green max-xl:w-full hover:bg-beige hover:text-green hover:scale-105 duration-300"><a
                 href="#kontakt">Skontaktuj się z nami</a></button>
             <button
-              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-white border border-white max-xl:w-full"><a
+              class=" flex justify-center items-center rounded-[200px] py-3 px-6 text-green border border-green max-xl:w-full hover:text-grey hover:scale-105 hover:bg-green duration-300 hover:border-green group"><a
                 href="#realizacje">Zobacz nasze realizacje</a> <img
-                src="/giarddesign/assets/arrow-down-black-7349bb61.svg" alt=""
-                class="ml-2 invert"></button>
+                src="/giarddesign/assets/arrow-down-49bb7b0e.svg" alt="zjazd w dół"
+                class="ml-2 group-hover:invert group-hover:rotate-45 "></button>
           </div>
         </div>
         <div class=" bg-green overflow-hidden h-[737px] w-4/5 max-md:w-full">
@@ -221,15 +224,15 @@
     class="flex flex-col mx-auto w-screen min-h-screen justify-center items-center overflow-hidden bg-beige ">
     <!-- Oferta -->
     <section id="oferta"
-      class="offers flex h-fit flex-col w-full bg-grey justify-center items-center gap-24 pb-40 ">
+      class="offers flex h-fit flex-col w-full bg-grey justify-center items-center gap-20 pb-40 ">
       <div data-aos="fade-up" data-aos-anchor-placement="top-center"
-        class="flex flex-col justify-center w-9/12  mt-[120px] gap-4 max-lg:w-10/12  max-lg:items-center xl:w-10/12 xl:items-center">
-        <h2 class="w-7/12 text-xs text-green max-lg:w-7/12 max-md:w-11/12">
+        class="flex flex-col justify-center w-9/12  mt-[120px] gap-4 max-lg:w-10/12  max-lg:items-center xl:w-10/12 xl:items-center mb-2">
+        <h2 class="w-10/12 text-xs text-green max-lg:w-7/12 max-md:w-11/12">
           Oferta</h2>
-        <div class="flex flex-col gap-8 w-7/12 max-xl:w-11/12 ">
+        <div class="flex flex-col gap-8 w-10/12 max-xl:w-11/12 ">
           <h3 class="text-5xl font-fontA max-xl:text-[38px] leading-tight">
             Działamy <span class="font-fontB italic">kompleksowo</span></h3>
-          <p class="font-fontB font-normal tracking-tight text-justify	">
+          <p class="font-fontB font-normal tracking-tight text-justify w-8/12	">
             Oferujemy kompletną obsługę inwestycji terenów zielonych.
             Projektujemy
             nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla
@@ -243,71 +246,84 @@
         class=" cards-container flex w-11/12 min-h-[370px] justify-center items-center gap-16 flex-wrap group">
         <!-- karta 1 -->
         <div data-aos-delay="200" data-aos="fade-up"
-          class="card overflow-hidden relative group flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom">
-          <div
-            class="shine w-full h-full absolute top-0 -left-full bg-white opacity-40 group-hover:left-[400px] transition-all duration-700">
-          </div>
-          <div class="flex flex-col gap-3">
+          class="card overflow-hidden relative group flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom  ">
+
+          <div class="flex flex-col gap-8">
+
             <div class="w-10 h-10">
               <img class="w-full h-full" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKDSURBVHgB3Zg/aBRBFMa/Q7Gw0NOISkRzlY2FFim08goLURCUNIKFhb0KVqKwXGGlsRQRObCzsBBFbeIfsLCKSkggkBAIhFQhf5oQyL/32B3ybpjZnXfZuTvywQ/ubt/MfvfNzONugTA9IYYQR6+ILaKJNtXIJlhDHJOj2fy/0YaMOQObvIHyVLfmr2sGD1uDJWUkOUDMWPPy+1rI4EaOuTKSvOkwJ03ewS7MMUvEVej1nZgLmJ9ZIL62Y26dGBRjqgjXaqA5w7zWHH8rmdxtYpG4gjA9JN4RswX34TmbxF2NOV7WurgZ75P17NqywiRrgHjjuc9bWKsSYo4PxWWPOcMKcQk6fbbmaLqKEugOxHWHOcMGdEmeQrqcZnzNV5jAn9ygVXuU+Af/F+Ll1iT5Kxv3pagwQX5y54hK9voM8b/A5EWE6RHxg3gQUpzA3Uq4KXOaL8RnfSWaVOkpWpMz5syNh8W1ouXmg6PZk2oNWeYMDVHTh+I9GcXkBY85w2tRG5KktgUF6RnyWxAnWREm8/aktgWVZlKTpLYFlWbyJVqT7MrBKTLZEy3oOfJN2i1oCvlJRjGZoPjgGHWtBRUlueda0CgiSXNwfElOEqcRUbtpQfy6P7t2kLiGSEoQfrrNwZkgjghzI8Q0Ikrbgk4Kc+9F3XlEVILwFmTMfbBqHiOy8pIcI04Ic58cNU10QK6D8xc7fyd95saJ4+iQpElOrl9cG3GYm0Hgg6MyxcvNyR3L3ockdwDp346OSS6rLzlp7iOxSZxFh3UP7uRqaDVnrt1HF1RD+sDpG9Klt5OT5n+ih8RPvFxtqboPvSHem3+QJnmYOJR9vlxB72k/0h8Nt4jqNka+BcYS9yddAAAAAElFTkSuQmCC"
                 width="40px" height="40px" alt="ołówek">
             </div>
-            <h3 class="font-fontA text-[28px] leading-[32.2px]">Projekty</h3>
-            <p>Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
-              wykorzystaniem istniejącej przestrzeni.</p>
+            <div class="flex flex-col gap-3 max-xl:w-full">
+              <h3 class="font-fontA text-[28px] leading-[32.2px]">Projekty</h3>
+              <p>Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+                wykorzystaniem istniejącej przestrzeni.</p>
+            </div>
           </div>
           <button
-            class="flex items-center mt-4 w-7/12 text-green border-b group max-xl:w-full">Dowiedz
-            się więcej <img class="ml-2 group-hover:rotate-180 duration-300"
+            class="flex items-center  w-7/12 text-green border-b group max-xl:w-full mt-16"><a
+              href="#oferta">Dowiedz
+              się więcej</a> <img
+              class="ml-2 group-hover:rotate-180 duration-300"
               src="/giarddesign/assets/arrow-right-75256ed9.svg" width="16px" height="16px"
-              alt="ikona strzalki w prawo"></button>
+              alt="ikona strzalki w prawo">
+          </button>
         </div>
+
         <!-- karta 2 -->
-        <div data-aos="fade-up" data-aos-delay="400"
-          class="card flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom	">
-          <div class="flex flex-col gap-y">
+        <div data-aos-delay="200" data-aos="fade-up"
+          class="card overflow-hidden relative group flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom  ">
+          <div class="flex flex-col gap-8 group-hover">
             <div class="w-10 h-10">
-              <img class="w-full h-full object-scale-down"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAdCAYAAAAD8oRRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALkSURBVHgBzZhJaBRBFIb/aMSoUUdEERx3kIgLRsQlQdGLorm4IHpRQRLwoKDgRXBBPQmiqBejYFAP8SKe4sXDCIIIwSDmIriMKxpww32P/7O6oTPp6tSr6Unyw0fSdNX/aq/XU4b0NJ0sJdPI1OA5QyrIZ/KaPCRPyD3SSl6gH6iGHCB50unBbbKdTEEfaA3JkV/wa3whH0gzmYVeUC3MMugsEX/IBTIeJdAYcor8VTbqN3kP/Yy9JQ1IUYtgNqNrA3KknmRJeeAhf+eQPaRd4dVCJqNIyab77hjwOVnu4DmY7CZfHH3zZC48tR/uIyajOyHGY1lARcw7meFPjv6yJNdBqaNw74Cc/dkYj8pImU2WODJzPxzjyP7aAEedgHsHhAUWn8WRMo0J8Q4rYklHtqAHHYSuA80JXlfRdTlkLeUywXvXmLIEl9iCNkDXAWGlxWtvTNkbZICl/Ell3DcwqU0XVcHkNhojOV3KC3zGktMJdSRnquneB2xUxhbukiGhwTDywMOkPdKIzaSNfFTUbYrUn+0RXzgbGtR7GrRGGqE9DIRXkfpVnm0Q5skavUzuQ6+Rkf9z5Br56Vb1f/Z6MfI8An6SwWsLH6qhOyHCPTGowHQoOQ7TGdvszYhpTJ0ytiADX1lotN7DqA7x2obuyeJ1MtxS/owybh4JOdUupVkL7IreE08TgsoJ16GIKRdeNXqQ5gaV/N928dRGyjUlxDumjLcCjmpUGOfJqBgP2R/hkrLlTgsVcWQGtkIpTRJ4B/HLRT43JY3OxLyTmXI9TOQiXgtP7SBfHQPlHQNJWr4P7hfjSzIfRWomeeQYULhFdsL8dDMw8JClJenGIZhN7up1BfFL1UtysZ1TBI/yzaNORzAQJZGs75xHo1yRD6RLZDR6Qath0oy0Gi/74zxSWPs+ktPnCHkMfcPlyMzB/GgwDkWoDOlpIlkFkxtNgjlWw6NVGizHpHzMPINJ2m6Sd0hB/wDHpsXQhe7mygAAAABJRU5ErkJggg==" width="49px" height="29px"
-                alt="ikona oka">
+              <img class="w-full " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAdCAYAAAAD8oRRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALkSURBVHgBzZhJaBRBFIb/aMSoUUdEERx3kIgLRsQlQdGLorm4IHpRQRLwoKDgRXBBPQmiqBejYFAP8SKe4sXDCIIIwSDmIriMKxpww32P/7O6oTPp6tSr6Unyw0fSdNX/aq/XU4b0NJ0sJdPI1OA5QyrIZ/KaPCRPyD3SSl6gH6iGHCB50unBbbKdTEEfaA3JkV/wa3whH0gzmYVeUC3MMugsEX/IBTIeJdAYcor8VTbqN3kP/Yy9JQ1IUYtgNqNrA3KknmRJeeAhf+eQPaRd4dVCJqNIyab77hjwOVnu4DmY7CZfHH3zZC48tR/uIyajOyHGY1lARcw7meFPjv6yJNdBqaNw74Cc/dkYj8pImU2WODJzPxzjyP7aAEedgHsHhAUWn8WRMo0J8Q4rYklHtqAHHYSuA80JXlfRdTlkLeUywXvXmLIEl9iCNkDXAWGlxWtvTNkbZICl/Ell3DcwqU0XVcHkNhojOV3KC3zGktMJdSRnquneB2xUxhbukiGhwTDywMOkPdKIzaSNfFTUbYrUn+0RXzgbGtR7GrRGGqE9DIRXkfpVnm0Q5skavUzuQ6+Rkf9z5Br56Vb1f/Z6MfI8An6SwWsLH6qhOyHCPTGowHQoOQ7TGdvszYhpTJ0ytiADX1lotN7DqA7x2obuyeJ1MtxS/owybh4JOdUupVkL7IreE08TgsoJ16GIKRdeNXqQ5gaV/N928dRGyjUlxDumjLcCjmpUGOfJqBgP2R/hkrLlTgsVcWQGtkIpTRJ4B/HLRT43JY3OxLyTmXI9TOQiXgtP7SBfHQPlHQNJWr4P7hfjSzIfRWomeeQYULhFdsL8dDMw8JClJenGIZhN7up1BfFL1UtysZ1TBI/yzaNORzAQJZGs75xHo1yRD6RLZDR6Qath0oy0Gi/74zxSWPs+ktPnCHkMfcPlyMzB/GgwDkWoDOlpIlkFkxtNgjlWw6NVGizHpHzMPINJ2m6Sd0hB/wDHpsXQhe7mygAAAABJRU5ErkJggg==" width="49px"
+                height="29px" alt="oko">
             </div>
             <div class="flex flex-col gap-3 max-xl:w-full">
-              <h3 class="font-fontA text-[28px] leading-[32.2px ]">Wizualizacje
+              <h3 class="font-fontA text-[28px] leading-[32.2px]">Wizualizacje
               </h3>
               <p>Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego
-                spaceru animowanego w technologii 3D.</p>
+                spaceru animowanego w technologii 3D</p>
             </div>
           </div>
           <button
-            class="flex items-center mt-4 w-7/12 text-green border-b group max-xl:w-full">Dowiedz
-            się więcej <img class="ml-2 group-hover:rotate-180 duration-300"
+            class="flex items-center  w-7/12 text-green border-b group max-xl:w-full mt-16"><a
+              href="#oferta">Dowiedz
+              się więcej</a> <img
+              class="ml-2 group-hover:rotate-180 duration-300"
               src="/giarddesign/assets/arrow-right-75256ed9.svg" width="16px" height="16px"
-              alt="ikona strzalki w prawo"></button>
+              alt="ikona strzalki w prawo">
+          </button>
         </div>
+
+
         <!-- karta 3 -->
-        <div data-aos="fade-up" data-aos-delay="600"
-          class="card flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom	">
-          <div class="flex flex-col gap-y-8">
+        <div data-aos-delay="200" data-aos="fade-up"
+          class="card overflow-hidden relative group flex h-full w-[378px] flex-col justify-between bg-white rounded-3xl px-10 py-12 hover:scale-105 duration-300 hover:origin-bottom  ">
+
+          <div class="flex flex-col gap-8">
             <div class="w-10 h-10">
-              <img class="w-full h-full" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK/SURBVHgB7ZhLaBNBGMf/vqqIoIIvfECqJwUf4EGlkq4XH3gpCJ7Tk6J4qjcVozcRFPGip8YXHrwIiigIqaIoWEU9+iAHe1BUKr5FMf1/7IbMJtnd2dnZZlv6gx9MlpnZL18ys98sME55T7/S8xgDzKNVz/sYA+xAPeA/dCbayGSNPruVdgfdDjsUaL+nNXL0N+oZFh/DDiVlTm2iMnyJTm+4toEeQgY5A39mG92HjNBJ7yI82JrH6Ry0gWk0T0/RYegFW7NC99OVSMZSWvTcFNZRHgr/YwYZ5F96BWY4yjzFoE5T6ULYQ+ZbDDO6lHY+rGOZPkHy7P6kg/Q04iO7VaVhvq6oQZLp3hYDo5QvvBNudk052mLeZ3SGzmC5cRF6Ge1Fck6G3OMBXaA70RGEB7se5iyCu7M8gt4udJCu0Zn4asAkB2DOHZivk19Rk89F8758E8kYgHnA1SkRk0vhI0+yzco1ye5bmDMLbokqdXaH5hgJ9gW9odO5G/VvOAx7yGLqo/8QntVzdDlioJ44bmv0Xwd3qyt77ShW0Y9oHWwfDHlIn9NjGn0d5YYO9OhBc7AnMEpIViueToxx8ovUgh2iy5Bx9qAe8IWgTjpnutHipdJ+FdRpErKDJG+F1/4EuztSdpAF0++Z0xyzC25ZORhjjDUcxN+SzipjtiFlbCy6LUo7rzmmgPiJsUIB/s1eFsqSmOMcxCCq+AkjRy/S2co1OSHIOrjsBRPGB3oPbvX2BSkjP/0QggsWeZ2VQ5vppnvhf4SG+QPuE2srXYs2UE1gGZZIctJNCwfu30n+19eRgALcV1kV6Gd2AG5N2wN9SqgfPq0hJ97PCA5UipeNMKOEFAIWVtPvaA72DZ0Pc+QMmUNKu8xh+IOVl4qdyDDymvYdNApvWyStJeT16i3l8zWkjI1t7Sn95rVfYwI/I2JvZeqVFtukAAAAAElFTkSuQmCC"
-                width="40px" height="40px" alt="gwiazdki">
+              <img class="w-full " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK/SURBVHgB7ZhLaBNBGMf/vqqIoIIvfECqJwUf4EGlkq4XH3gpCJ7Tk6J4qjcVozcRFPGip8YXHrwIiigIqaIoWEU9+iAHe1BUKr5FMf1/7IbMJtnd2dnZZlv6gx9MlpnZL18ys98sME55T7/S8xgDzKNVz/sYA+xAPeA/dCbayGSNPruVdgfdDjsUaL+nNXL0N+oZFh/DDiVlTm2iMnyJTm+4toEeQgY5A39mG92HjNBJ7yI82JrH6Ry0gWk0T0/RYegFW7NC99OVSMZSWvTcFNZRHgr/YwYZ5F96BWY4yjzFoE5T6ULYQ+ZbDDO6lHY+rGOZPkHy7P6kg/Q04iO7VaVhvq6oQZLp3hYDo5QvvBNudk052mLeZ3SGzmC5cRF6Ge1Fck6G3OMBXaA70RGEB7se5iyCu7M8gt4udJCu0Zn4asAkB2DOHZivk19Rk89F8758E8kYgHnA1SkRk0vhI0+yzco1ye5bmDMLbokqdXaH5hgJ9gW9odO5G/VvOAx7yGLqo/8QntVzdDlioJ44bmv0Xwd3qyt77ShW0Y9oHWwfDHlIn9NjGn0d5YYO9OhBc7AnMEpIViueToxx8ovUgh2iy5Bx9qAe8IWgTjpnutHipdJ+FdRpErKDJG+F1/4EuztSdpAF0++Z0xyzC25ZORhjjDUcxN+SzipjtiFlbCy6LUo7rzmmgPiJsUIB/s1eFsqSmOMcxCCq+AkjRy/S2co1OSHIOrjsBRPGB3oPbvX2BSkjP/0QggsWeZ2VQ5vppnvhf4SG+QPuE2srXYs2UE1gGZZIctJNCwfu30n+19eRgALcV1kV6Gd2AG5N2wN9SqgfPq0hJ97PCA5UipeNMKOEFAIWVtPvaA72DZ0Pc+QMmUNKu8xh+IOVl4qdyDDymvYdNApvWyStJeT16i3l8zWkjI1t7Sn95rVfYwI/I2JvZeqVFtukAAAAAElFTkSuQmCC" width="49px"
+                height="29px" alt="gwiazdki">
             </div>
-            <div class="flex flex-col gap-3">
-              <h3 class="font-fontA text-[28px] leading-[32.2px ]">Realizacje
+            <div class="flex flex-col gap-3 max-xl:w-full">
+              <h3 class="font-fontA text-[28px] leading-[32.2px]">Realizacje
               </h3>
               <p>Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i
                 zaawansowanych technologii.</p>
             </div>
           </div>
           <button
-            class="flex items-center mt-4 w-8/12 text-green border-b group max-xl:w-full">Zobacz
-            nasze realizacje
-            <img class="ml-2 group-hover:rotate-180 duration-300"
+            class="flex items-center  w-8/12 text-green border-b group max-xl:w-full mt-16">
+            <a href="#realizacje">Zobacz
+              nasze realizacje</a> <img
+              class="ml-2 group-hover:rotate-180 duration-300"
               src="/giarddesign/assets/arrow-right-75256ed9.svg" width="16px" height="16px"
-              alt="ikona strzalki w prawo"></button>
+              alt="ikona strzalki w prawo">
+          </button>
         </div>
       </div>
     </section>
+
     <section id="ofirmie" class="flex w-full min-h-fit  ">
       <div
         class="flex w-full min-h-fit bg-green  justify-center items-center gap-16 max-lg:flex-col">
@@ -348,7 +364,7 @@
     <!-- Realizacje -->
     <section id="realizacje" data-aos="fade-up"
       class="flex flex-col w-full justify-center items-center mt-[120px] gap-y-24 pb-6 min-h-fit max-lg:gap-y-2 max-lg:pb-2">
-      <div class="flex flex-col w-9/12 gap-4  max-lg:mb-6">
+      <div class="flex flex-col lg:ml-20 w-10/12 gap-4  max-lg:mb-6">
         <h2 class="text-xs text-green">Realizacje</h2>
         <h3
           class="text-5xl font-fontA text-black w-1/2 max-xl:w-full leading-tight">
@@ -452,7 +468,7 @@
     <!-- Ekstra -->
     <section class="flex w-full justify-center items-center my-[60px]">
       <div
-        class="flex w-9/12 bg-green py-[110px] px-[120px] justify-center items-end max-lg:items-center text-grey gap-16 max-lg:flex-col max-lg:w-10/12 max-lg:px-20 max-lg:text-center max-lg:shadow-md">
+        class="flex w-9/12 bg-green py-[110px] px-[124px] justify-center items-end max-lg:items-center text-grey gap-16 max-lg:flex-col max-lg:w-10/12 max-lg:px-20 max-lg:text-center max-lg:shadow-md ">
         <div class="flex flex-col">
           <p
             class="text-[40px] text-fontA max-xl:text-[30px] max-lg:text-xl max-lg:w-full max-lg:inline-block">
@@ -473,7 +489,8 @@
   <!-- Footer Kontakt -->
   <footer id="kontakt"
     class="flex w-full flex-col bg-black text-grey min-h-[499px] py-20 justify-center items-center gap-[120px] max-lg:gap-20 max-lg:pb-10">
-    <div class="flex w-full justify-center items-center flex-col  min-w-fit ">
+    <div
+      class="flex w-full justify-center items-center flex-col  min-w-fit gap-16 ">
       <div
         class="flex min-w-fit w-9/12 flex-col items-center gap-[62px] max-lg:w-11/12">
         <div
@@ -487,43 +504,43 @@
             <p>Daj znać, co możemy dla Ciebie zrobić!</p>
             <button
               class="bg-green text-grey py-3 w-fit px-6 border border-green hover:bg-black hover:text-green  hover:border-green duration-300 rounded-[200px] flex flex-row ">
-              Skontaktuj się z nami </button>
+              <a href="#">Skontaktuj się z nami</a> </button>
           </div>
         </div>
-        <hr class="w-full bg-beige ">
-        <div></div>
       </div>
+      <hr class="w-9/12 bg-beige">
       <div
         class="flex w-9/12 min-w-fit justify-between items-center max-lg:flex-col max-lg:gap-y-10">
         <div class="flex rounded gap-6 text-sm ">
           <a href="#"
             class="hover:text-green duration-300 hover:tracking-widest hover:border-s-4 ease-in-out max-lg:hover:border-none">
             <img src="/giarddesign/assets/user-d0a73b96.png" alt="kontakt"
-              class="hidden max-lg:block w-10 h-10">
+              class="hidden max-lg:block w-10 h-10 hover:scale-105 duration-300">
             <span class="inline-block max-lg:hidden">
               Kontakt
             </span></a>
           <a href="#"
             class="hover:text-green duration-300 hover:tracking-widest hover:border-s-4 ease-in-out max-lg:hover:border-none">
             <img src="/giarddesign/assets/instagram-515f65da.png" alt="instagram"
-              class="hidden max-lg:block w-10 h-10">
+              class="hidden max-lg:block w-10 h-10 hover:scale-105 duration-300">
             <span class="max-lg:hidden"> Instagram
             </span>
           </a>
           <a href="#"
             class="hover:text-green duration-300 hover:tracking-widest hover:border-s-4 ease-in-out max-lg:hover:border-none"><img
               src="data:image/png;base64,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"
-              class="hidden max-lg:block w-10 h-10" alt="fb">
+              class="hidden max-lg:block w-10 h-10 hover:scale-105 duration-300"
+              alt="fb">
             <span class="max-lg:hidden">Facebook</span>
           </a>
           <a href="#"
             class="hover:text-green duration-300 hover:tracking-widest hover:border-s-4 ease-in-out max-lg:hover:border-none">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABAEAYAAAD6+a2dAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnCBQGEjByPjZeAAAO+0lEQVR42u2deVxUx7LHf3WGxQ0UgiiM+1VUUGBwSVxjXsQlua4RIgMqi+IzceNGRK83MYnRCChRfBFxYVEcInLVGE1col4lGuNHVkEWSUxkcwNBiIjAqfeHDnlPP/NxZmBmRPn+N2e6u2rq1HSf7q6uQ2jmdHKdZe0Yam1t1E98X3h99Gj+mScgysGB/Ggs/btfP9yAEyvs7DAIFXTDwoJfxwwUdeiAH3EUie3aNTQ0Fu9iRlUV/YJESMvLkYz23O3ePUzkTFLk5nI8BfCCnBzyIFuKyMqqW0Nf1bskJd06ued2RuDt24a2g7aQoRVQly61nuedJw0Zwu0xAHM8PDiezcjS1ZXW0nHEOTigCHFIJf39Him8IGPmVTweXllZFIJfMP7ECWGy5ByGxMcXBO0JSr1w+bKh7fY8XjgHsJzouWjoNXPzVi5s/uiwvz+1whL6xNcX2ygAdv37G1o/tQlGHTpevcrZ3JvHR0fXDG31qDorMrJ0SlRoblRlpaHVU2JwB+gS4OZmn2Bpye+bVJneX7KEpeiN3xYtojdQhh8sLAytX1PBF2GJiffuUReEY214uKQ7e9Y5bt5844ZCceXKvXuG0stADkAkHeG1TWY8axa68SQM2bAB57Ac1R07GsoQeqcIgfikrAyJtJTPfP550Yy/nUkL37IF+IwAUdSXGnpzgC4BXgGyC717c464FjtiY5FB85A2fLi+5L/wTIcllp4/L2TWzRTC58wpOLNvRHLyr7/qWqxE1wK6BHjGu2yeNk10x2psP3qUttA1/Nanj67lNjuyUY2L3brxdFogBvn4mJUNPGzT4/r1yltXbt28kJmpK7E66AFWMyAItnn5k5zdNm6kt9Ce8pcu1aHpXm568EJkhoUVne/zRmptYGBTDxFN1gPYJ7jNsE8wMTFZVP5eF6Pdu2kS/UB58+YZxmovEeV0CdbDhpm9V5Zvs7FPHzthWE/p7999V1KSnFJS0nhHaHQPoLzx5UNMtptePXiQRmIRvn3nHUPb7aXlNhLw9dGjnQe29RYWTpuWnLJ9R3JKba22zTXSAYikpvJY2TsxMbCiEyiZPdvQ9nlliOdY9IuPLxrdR5Ia7+Wl7dAgaCvfNs/z785uYWEtN95AeNAc5Hh4SGN+tZYdDw7WthmNewCprdzD2cnNDUQCCQkJhrZDC48RL9IhPiKXl3SN+zNNGh+vbj21ewDlPB5fEPDvnTubTPMna+qwRT+MS0vDvxCF/G++YW/ks9fBg5zNERhaVKRnezY76Gc+RA4REd26yeWDj/TqpXY9NYuRdKL8gcznp5+abAGnBKPQ89o14UuhAjflctWbJ25ubm4SidTdJCbfe+5cnodQxIWHkzeuIcfERG8Wbi5sx7ccm5RU9O7eqjTHN998fJFZVfHnOoDNNfmnsp5+fsIYuoYOTfDPb88bcOfBg7qs+s5igYPDLdpH6fT77+pWlzrJo2TZAQG4S6cgDwvTh02bI5yNt3mqt3ex+V7ftNWxsarKqRwClJs0gjcRCtevbzLNBtNvSE5I0PTGKzFKM/Yx7xcRgQG4g25//qlrQzZXaC220L2QkO48h524QwdV5VQ6APcwHmO6aelS/I48DLCyajLNZuEB+ubmalv9D4qls/TwIS4jGXfy83VlwGZPHOxx1tq69oO6xZS0eLGqYs84gHI/nqdTDsYsXNjkih3GYUxuvEPxdb6OgU3omC8pFAE/Kl2y5LVvfQP7+pqZPf39Mw7QEIiho/14fh0decK0aYNc/OcNcjE21rS+jaPXey5eo0ZRf1qAS1Kp/kzZTJEiFJ9bWpq+9WhnG+Nnl+afcYCGCBwdQUHIpdBevW5+9+enYquICOBNfpONjJ5XrxO/z07cowd9zdvFNdHR+rdkM+eMWIr3fXyevtwwC2iIueuBrVR46ZK+9OKtvAcbMzPxlvAa9kVHA+If1D0vD8HkitVt2yIDD/i1ESNoEF/mzd7e2EG+tP7ZrqwF9WCj+kAx08Wl+I9vnNNrU1MbHEDaxrPCOTEsDBb4gNYGBBha0RZ0xFo6gfUbNhR5x91JHR8Y2DAE8Dpk0tVx4wytXws65mtejNNjxyo/UkNcfYUYK8m+eVPn4dVDcRR+osjhmIXiigpNq9OnGI7WxsY4hiM48H/i+p9CGYSpcfsncZd9JRJ8DIHczM2fKTABf8f0qiqez3/D9uPH0Q7tsCQtjc7jC1Lcvg0LoVgc2bo1W/JHNKpTJ6qGB/cdORKZOI1ew4YhHJtp1POfeXRtf3GCGCxEdepkpDxQgQOIg0L3cfU8nlPZ8fbt4q6KnmkLbWw0rW+7zcNd9tukSXRMAA4cPqyqXHHXwnDztdbWwFk6S3V1arfffWaaU6hMRpCE0oCUFEyHJW+ur0dv7kcr1q172KNVyoProaGlQ6M8cguehHcve6qRFADAfxD+16WuwTOvyIbb2orGEhlqPv4YMnyBD/z9cQnvYpeg9a6sxjyRJ/mZysVzo0cbNZykASn0poQeGOTS179qEFFyylntGqjEG/xDdbU4gIZxJ7m8ZP7ewWkXDh0CAFzQvLmCoG/8Ui8UFz/+tGBBl4fyYNmckyf5AbXhGXFxMMNFmti6tb7sI34pRGOQg4PQcISqhf/PCn6b4ubPL5kfNzidntz4JqTwpiIo1ezAAV6EOKHrs9MznXMb5Uju21eAEXZzwcsXpVvhXXCmwlvzrrVDaP0XtXuzsor+qbBPXbZnj671LF6795eU2n37+Ev48Z4DB/RmICvui5V2dgIykEGDX74lVZPO7ZxNOqveBlXFVff9iVfdHz3St74cxDuF2evW6UsetUce+ltZCfgW33Ki6qfp5sqfbm32d3RruocraaJHhfPiPn1s53rNdunt4yMtlSc5X1+8WFo6y3qQy+uvN7b9khKFIiUlOZm/hyVvvnJF5wb6Cv+NpWZmAu+CLwW/fCtr9f944F5T2NhZDZH0irzIxTokBGeFf2FGdjb9wPVsFhUFR9pG0zdvhqPoKvLFi9IizyLZcGW8hPZyKRG7ySIpSdf24R3shi/NzPQ3/Whm2N73spDNDwjABFrO0sBAHEAZLZGoPkcxFMtR7efXJcDT2Fnu4aGtXC6hKTRNf8fKBfJDFAe9OMeVm4r6fhYWtVO1+Sc+3pwicz6DCatWaVpbFJGC9xsRJR0m/g9879zRtX1oHu3HyspKAVMwhWZUVelaoL4RE6sP1c7U3AFs73efVt6/Vy/lNqqm9WkUxlGhnZ3WigcLp0XTsjKdGygA27CpslKAIxz58t27OheoZ8QOD0fXddeiBzhWJ0d2mzbaymV7PoVqW9vHnzSXz92wQqJ4+FDX9uEK2CH77l0BfdmHFuTl6VqgvhHKW50z+kPzaSACRTuYNOIhzpXWYq+p6eNoZj0u8WpKR+Tw27m5Av8Dx9lU+xg9vSMnJ/rm+Te2bqHxnJrsF/gGGJpSsqCgvDyBwoQMqtHd+XNDIcRVXpdM0KIHeEUQMng1fZiZKSjTnTWc0HnRUXA6q/FwZzTWwrJ1sP5SrTQbnmwH1/cT71NsUpKgzHOnTHdmaP1a0DHGKELP9PSS+fHzk1Pu3m0YI8mDKrns5ElD6/dc1HwGaEEFH3M5+fz4o/JjgwMIq4VtFKZ48WMC1BwCTPxrIttdbhkCnoazcb7+1l/3ucEBlIczG6J0mznGW273KdrS0lM08CRxZbG7wj2d0tKUl5+dJl3Cx5yq+jChwWkZArSCJ9MJ9Ny16+nrzziAMqWptkGVOkfNIaB9TNe32se0DAHKhJQ1Z0zmPqjdsePpr59xAGUuWypCPnpt2WJo/VtoHBxNMxG0aZOqHMUqV8ok7mxRt3nTJoxGCFrrfndKbVqGAPX4J4Zj+a1brT6vGSC0Cw9XVUxlfLoyibHtOC8jl95BQQQGm0VFNVYvCkcrkpub2573MnFeGxmpcQO7xVpxabduAED7VRcrGV4VIMq3brXd4hXr/J4GQ8GvXIYpVlZYCWCW9r/TdptJ5/zgiAgM9DJxdtbAYX/lrfVTrKwA7KJGyIeCJJi9fPlv1/cnJteqPn+hfoqYRZ6LZLFJSTiAMmwaMaIRqrWgQ3gh7HHj3LnilXtXpZaOGfPkqkoHVHOzhFmZxJi/gjeua36ipwXdwok4BKvycqMIzpLEKsPMn9/zqJ0q9v7vWVElJffumXd27ND5RH4+slFNx9zdDf3DW3iMEM/uOObpWVCk+Cpl4AW1j65onCu48tKVSzejr141dxy43abU3FyZy9bQBnhVobsYzHNDQgorFMvSRmo+a9N6v7zovGJYau2yZXgbH+BYTIyhDfGqwa5wxDKForCm99K0D1eu1LadRgZMMHfObBsjTPT355+wBVO+/97QhnnpscAAXnzkiE1G23xho7d3Y9PHN+Fp4MfRtNJjXaZW3ImMhB/a0XjdpZp51eAI/MifxMXZfNp2smSNr29js4Qr0dFxcCJpjFdH2fGQEKzicVixbFnj23zFeBKgQ+nI4UGhoYU1ewPSPlyx4vGXTbcQpvN8ADaRXpedeOpUeodjhVVRUS/b28CanDUQef/9+zyAyoTT8+YVD407nuKvu6TcOg+aVB6vNhrBpZLhgwcrc9nqWm5zQ7mAUxcvnBIPOjvr+sYrMfxr40ZyJD4MDVVmtjSMPgZA+dq4HRxCa1auLJqnUKSkKHfr9LfXofO3hqmisiDjyE0xPd3yJ5eSTj/v3FmfL/4H9tXVdBoLaaiTE8xxAWf1lzFD50iQxNGlpbyG7pJi/fpWGY9yhIty+Y3d+/alpKi/cNPUGPzNoU/T0c1thn1Cu3bGu0xPmZ7y90cUH4HU15dCsRUHHRwMrZ+6KCOr6BPEwCYq6pFd7fc1V3bsuLN/f+JV9xfnKN4L5wCqsO0+M83JWCajz4xchSNyOT5iEZ+5umI06iEfOFDvyZaehFejEB+hICMDUexL0SdPKmPung69elFpNg6gCptIj8hBLlZWktVULp4dPVo8jUmItLdHCH0Hm/79IeX/QrCdHfrTD7zC0pK8MJlad+jAJ3EICX8lxiBXTIV7VRXH4TBXl5cjmyfS+rIymAuTcD43F5PE04jMyRF2UDoZZ2Up4+qV4dWGtoO2/C8YWk377hR4xgAAAABJRU5ErkJggg==" alt="linkedin"
-              class="hidden max-lg:block w-10 h-10 ">
+              class="hidden max-lg:block w-10 h-10 hover:scale-105 duration-300">
             <span class="max-lg:hidden">LinkedIn</span></a>
         </div>
         <div
-          class="text-right text-sm max-lg:flex max-lg:flex-col max-lg:text-center max-lg:gap-y-6">
+          class="text-right text-sm gap-12 lg:flex max-md:flex-col max-lg:text-center max-lg:gap-y-6">
           <a href="tel:+000000000" class="mb-1 max-lg:w-full">000-000-000 </a>
           <a href="mailto:giarddesign@kontakt.pl" class="flex group ">
             <img
@@ -538,7 +555,7 @@
     <div
       class="flex w-9/12 items-end justify-between max-lg:w-full max-lg:justify-around max-lg:text-xs">
       <div class="">Prawa zastrzeżone © <span class="footer-year"> </span></div>
-      <div class="flex  ">Made by <img class="ml-2"
+      <div class="flex gap-4 ">Made by <img class=""
           src="./src/img/icons/logo-full-light.svg " width="64px" height="64px"
           alt="logo adRespect">
       </div>
